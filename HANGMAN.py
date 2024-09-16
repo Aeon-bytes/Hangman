@@ -10,6 +10,7 @@ response = requests.get(url=url)
 
 print('HANGMAN!!')
 chances = 7
+print(f"You have {chances} chances left.")
 
 word = response.json()[0]
 
